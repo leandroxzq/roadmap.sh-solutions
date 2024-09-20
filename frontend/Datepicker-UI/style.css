@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Code", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.datepicker {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: 360px;
+    gap: 10px;
+}
+
+.datepicker button {
+    border: none;
+    background: transparent;
+}
+
+.datepicker__container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.datepicker__container svg:hover {
+    color: #707070d8;
+}
+
+.datepicker__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datepicker input {
+    flex: 1 1 auto;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    height: 2rem;
+    width: 250px;
+}
+
+.datepicker__input svg {
+    width: 25px;
+    margin: 10px;
+}
+
+.datepicker__select {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datepicker__select svg {
+    width: 24px;
+}
+
+.datepicker__month {
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.month__days, .month__day {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.month__days span {
+    border: 1px solid #000;
+}
+
+.month__days span:hover {
+    cursor: pointer;
+    background-color: #00000067;
+}
+
+.datepicker__month.disabled {
+    opacity: 0;
+}
+
+.datepicker__month.active {
+    opacity: 1;
+}
