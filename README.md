@@ -1,10 +1,10 @@
 # Projects - Roadmap
 This repository contains a collection of projects from the Roadmap website. I found it interesting to put into practice, apply, and solidify the concepts studied. The projects are organized into individual folders, each containing the necessary files and code for each project.
 
-# Soluções dos Desafios do Roadmap Frontend
+# Front-end challenge solutions
 
 - **Datepicker UI**
-  - [GitHub Pages](https://leandroxzq.github.io/roadmap.sh-solutions/frontend/Datepicker-UI/index.html)
+  - <a href="https://leandroxzq.github.io/roadmap.sh-solutions/frontend/Datepicker-UI/index.html" target="_blank">Datepicker UI</a>
   
 - **Custom Dropdown**
-  - [GitHub Pages](https://leandroxzq.github.io/roadmap.sh-solutions/frontend/Custom-Dropdown/index.html)
+    - <a href="https://leandroxzq.github.io/roadmap.sh-solutions/frontend/Custom-Dropdown/index.html" target="_blank">Custom Dropdown</a>
